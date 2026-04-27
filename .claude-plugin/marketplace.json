@@ -1,0 +1,19 @@
+{
+  "name": "conventional-commit-skill",
+  "owner": {
+    "name": "mrburrito"
+  },
+  "metadata": {
+    "description": "Agent skill for writing conventional git commit messages"
+  },
+  "repository": "https://github.com/mrburrito/conventional-commit-skill",
+  "plugins": [
+    {
+      "name": "conventional-commit",
+      "source": "./",
+      "description": "Write conventional git commit messages from repository changes",
+      "skills": "./",
+      "strict": false
+    }
+  ]
+}

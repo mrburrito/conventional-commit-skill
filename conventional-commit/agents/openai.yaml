@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conventional Commit"
+  short_description: "Write conventional git commit messages"
+  default_prompt: "Use $conventional-commit to draft a commit message for the current repository."
